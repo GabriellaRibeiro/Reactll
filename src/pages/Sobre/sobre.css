@@ -1,0 +1,35 @@
+hr {
+    width: 65%;
+    height: 1px;
+}
+
+.apresentacao {
+    display: flex;
+    justify-content: center;
+    padding: 4px 7px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 12px;
+}
+
+.fotoPerfil {
+    width: 20%;
+    margin: 10px;
+    border: 4px solid rgb(153, 214, 230);
+    border-radius: 40px;
+    
+}
+
+.textos {
+    display: block;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.title{
+    font-size: 1.6rem;
+}
+
+.texto {
+ color: rgb(34, 28, 144);
+ font-size: 1.1rem;
+}

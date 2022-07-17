@@ -1,9 +1,11 @@
 import { useState, useEffect } from 'react'
 import Header from '../../components/Header/Header'
 import { FiTrash2, FiPlus } from 'react-icons/fi'
+import Footer from '../../components/Footer/Footer'
 
 import image from '../../assets/project.svg'
 import './comentarios.css'
+
 
 function Comentarios() {
   const getLocalList = () => {
@@ -91,6 +93,7 @@ function Comentarios() {
         </ul>
       </main>
     </section>
+    <Footer /> 
   </>
   
  )

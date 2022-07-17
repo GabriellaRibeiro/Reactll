@@ -1,0 +1,19 @@
+.copyright {
+    text-align: center;
+    width: 100vw;
+    padding: 20px 0;
+    background-color: #1c193b;
+    color: #ffff;
+}
+
+.copyright p {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize
+}
+
+.copyright span {
+    text-transform: uppercase;
+    opacity: .6;
+}
